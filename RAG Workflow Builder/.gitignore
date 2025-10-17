@@ -1,0 +1,36 @@
+# --- Node ---
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
+frontend/.cache/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.production
+.env.development
+
+# --- Supabase ---
+supabase/.temp/
+supabase/functions/.netlify/
+
+# --- Docker local overrides ---
+docker-compose.override.yml
+
+# --- OS & Editor Files ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# --- Cache ---
+*.cache
